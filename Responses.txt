@@ -38,3 +38,7 @@ Top 10 Trigrams:
 ('how', 'are', 'you'): 20
 
 Q3. The sentence punctuation did affect the sentence generation a lot because punctuations were showing up in the most frequent and the uni,bi,tri grams were different when punc was removed
+
+Q4. We were able to generate some reasonable sentences, although the results were usually informal and sometimes incoherent because the NPS Chat Corpus contains short online chat messages. Some reasonable examples were “hey everybody,” “any one got myspace,” “who is Judy,” and “how are you U129?” Initially, 
+the program selected a random bigram from anywhere in the corpus, which often produced fragments such as “through,” “with U5,” and “and stairs give me problems.” To improve the generation, we changed the code to select random starting bigrams from the beginnings of actual chat posts. This produced more natural sentence openings, 
+although some generated sentences were still confusing because a trigram model only considers the previous two words when selecting the next word.
