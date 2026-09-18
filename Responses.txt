@@ -1,0 +1,40 @@
+Q1: We chose the NPS Chat Corpus which is anonymized chat.
+
+Q2: The most common unigram, bigram, and trigram is:
+Top 10 Unigrams
+.: 1268
+JOIN: 1021
+PART: 1016
+?: 737
+lol: 704
+to: 658
+i: 648
+the: 646
+you: 635
+,: 596
+
+Top 10 Bigrams:
+('.', 'ACTION'): 346
+('PART', 'JOIN'): 191
+('JOIN', 'PART'): 136
+('PART', 'PART'): 115
+('JOIN', 'JOIN'): 107
+('I', "'m"): 89
+('.', 'JOIN'): 79
+('pm', 'me'): 76
+('in', 'the'): 75
+('are', 'you'): 65
+
+Top 10 Trigrams:
+('PART', 'JOIN', 'PART'): 35
+('JOIN', '.', 'ACTION'): 34
+('.', 'ACTION', 'is'): 33
+('JOIN', 'PART', 'JOIN'): 33
+('PART', 'JOIN', 'JOIN'): 25
+('?', '.', 'ACTION'): 25
+('PART', '.', 'ACTION'): 25
+('PART', 'PART', 'JOIN'): 23
+('18', '/', 'm'): 22
+('how', 'are', 'you'): 20
+
+Q3. The sentence punctuation did affect the sentence generation a lot because punctuations were showing up in the most frequent and the uni,bi,tri grams were different when punc was removed
